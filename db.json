@@ -1,14 +1,42 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "qualification": [
+    {
+      "qualificationName": "boundingbox/beginner",
+      "qualificationDescription": "beginner level",
+      "id": 2
+    },
+    {
+      "qualificationName": "boundingbox/proficient",
+      "qualificationDescription": "proficient level",
+      "id": 3
+    },
+    {
+      "qualificationName": "image tagging",
+      "qualificationDescription": "image tagging",
+      "id": 4
+    },
+    {
+      "qualificationName": "box wrapping",
+      "qualificationDescription": "box wrapping",
+      "id": 5
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "assignments": [
+    {
+      "qualificationName": "image tagging",
+      "workerId": "1"
+    },
+    {
+      "qualificationName": "boundingbox/beginner",
+      "workerId": "2"
+    },
+    {
+      "qualificationName": "boundingbox/beginner",
+      "workerId": "3"
+    },
+    {
+      "qualificationName": "boundingbox/proficient",
+      "workerId": "4"
+    }
+  ]
 }
